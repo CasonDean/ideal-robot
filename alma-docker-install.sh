@@ -26,9 +26,9 @@ systemctl start docker
 sleep 1
 docker version
 sleep 1
-docker run hello-world --name hello-world
-sleep 1
-docker rm hello-world
+docker run --name hello hello-world
+sleep 5
+docker rm hello
 sleep 5
 
 echo "Installation of Docker complete."
